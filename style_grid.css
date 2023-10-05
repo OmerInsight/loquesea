@@ -1,0 +1,12 @@
+.flex-container{
+    display: grid;
+    grid-template-columns: auto;
+    /* justify-content: space-between; */
+    width: 40px;
+}
+
+.flex-item{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}

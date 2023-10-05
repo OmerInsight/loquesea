@@ -1,0 +1,59 @@
+* { 
+    color:rgb(57, 236, 21);
+    background-color: brown;
+    /* background-image: url(./unnamed.jpg);
+    background-repeat: no-repeat; */
+}
+
+
+#listao{
+    color: blue;
+}
+ol,ul{
+    color:black;
+    list-style-type: none;
+}
+
+
+#gisela{
+    color: aquamarine;
+}
+
+.items{
+    color: rgb(255, 8, 197);
+}
+
+div{
+    background-color: azure;
+    border: 3px solid #000;
+}
+
+.otrocolor{
+    color: yellow;
+}
+
+.parrafo{
+    font-style: normal;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5;
+    /* text-decoration:line-through; */
+    font-size: 20px;
+    font-family:'Noto Sans NKo Unjoined', sans-serif;
+    /* box-shadow: 10px 10px 12px rgba( 0,0,0,0.3); */
+
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+.parrafo {
+    box-sizing:content-box;
+    /* box-sizing: border-box; */
+    width: 10%;
+    padding: 30px;
+    border: 3px solid #000;
+}

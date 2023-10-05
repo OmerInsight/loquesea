@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- fuentes de google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Noto+Sans+NKo+Unjoined:wght@700&family=Wix+Madefor+Display:wght@400;700&family=Work+Sans:ital,wght@0,100;0,500;1,100;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <img src="./unnamed.jpg" alt="Logotipo de BAM 2.0">
+    <h6>Soy un h6 deb mio esta la lista de Definicion</h6>
+    <div class="contenedor1">
+        <p class="parrafo">
+            Lorem <span class="otrocolor"> ipsum dolor, sit amet consectetur</span> adipisicing elit. Accusamus explicabo cumque sunt minus
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus explicabo cumque sunt minus
+        </p>
+        <p class="parrafo2">
+             Soy el Parrarfo2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus explicabo cumque sunt minus
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus explicabo cumque sunt minus
+        </p>
+    </div>
+
+
+    <dl>
+        <dt>BAM</dt>
+        <dt>Lorem ipsum dolor, sit amet consectetur adipisicing </dt>
+        <dt>OMER</dt>
+        <dd>Rol de promotor</dd>
+        <dt>alumnos</dt>
+        <dd>Quienes se preparan</dd>
+    </dl>
+
+    <h4 id="listao"> Soy un h4 debajo mio esta la lista ordenada</h4>
+    <ol>
+        <li class="items">Maximo</li>
+        <li class="items">Gabriela</li>
+        <li class="items" id="gisela">Gisela</li>
+        <li class="items">Karem</li>
+    </ol>
+
+
+    <h2>Soy un h2 debajo mio esta la lista no ordenada</h2>
+    <ul>
+        <li class="items">cuatro</li>
+        <li class="items">dos</li>
+        <li>cero</li>
+        <li>uno</li>
+
+    </ul>
+
+
+    <h1>Soy un h1 debajo mio esta un formulario</h1>
+
+    <form action="/procesar" method="post">
+        <fieldset>
+            <legend>Informacion Personal</legend>
+            <label class="entradas" for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label class="entradas" for="mail">Email:</label>
+            <input type="email" id="email" name="mail" required>
+
+            <label> Genero: </label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label class="entradas" for="masculino"> Masculino </label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label class="entradas" for="femenino"> Femenino </label>
+            <br>
+
+            <label> Interese: </label>
+            <input type="checkbox" id="deporte" name="intereses[]" value="deporte">
+            <label class="entradas" for="deporte"> Deportes </label>
+            <input type="checkbox" id="lectura" name="intereses[]" value="lectura">
+            <label class="entradas" for="lectura"> Lectura </label>
+            <input type="checkbox" id="viajes" name="intereses[]" value="viajes">
+            <label class="entradas" for="viajes"> Viajes </label>
+            <br>
+
+            <label for="comentario">Comentario:</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+        </fieldset>
+        <br>
+        <fieldset>
+            <label for="ciudad">Ciudad de Residencia</label>
+            <select name="ciudad" id="ciudad">
+                <option value="Caba">Caba</option>
+                <option value="Provincia">Provincia</option>
+                <option value="Bariloche">Bariloche</option>
+                <option value="Mendoza">Mendoza</option>
+            </select>
+        </fieldset>
+
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>
+
+    </form>
+</body>
+
+</html>

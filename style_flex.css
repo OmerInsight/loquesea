@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: blueviolet;
+    width: 20px;
+}
+
+/* elementos del navegador*/
+.flex-item{
+    flex: 0 1 calc(33.33% - 10px);
+    margin-bottom: 10px;
+}
