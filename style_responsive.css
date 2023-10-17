@@ -1,0 +1,56 @@
+header {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    color: aliceblue;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 150px;
+}
+
+/* configuracions del diseño responsivo */
+@media (max-width: 600px) {
+    header {
+        text-align: left;
+        background-color: yellow;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .contenido {
+        padding: 10px;
+        font-size: 40px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 800px) {
+header {
+    padding: 10px;
+    color: blue;
+    background-color: orange;
+}
+}

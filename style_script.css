@@ -1,0 +1,23 @@
+.div1{
+    background-color: green;
+}
+
+.div2{
+    background-color: yellow;
+}
+
+.div3{
+    background-color: red;
+}
+
+button{
+    color:aqua;
+    background-color: black;
+    border-radius: 20px;
+}
+
+/* button:hover{
+    color: yellow;
+    background-color: blueviolet;
+    transition: 0.5s;
+} */
